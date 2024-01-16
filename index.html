@@ -11,10 +11,10 @@
     />
     
     <script type="module" crossorigin src="/project-11/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-11/assets/index-50c327ad.css">
+    <link rel="stylesheet" href="/project-11/assets/index-3bfb3be4.css">
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
   <div class="container">
     <div class="container header-con">
       <div class="container-header">
@@ -24,32 +24,32 @@
         <div class="header-nav-div">
           <nav class="header-nav">
             <ul class="header-list-text">
-              <li class="header-item-text"><a href="#about">About us</a></li>
+              <li class="header-item-text"><a href="#about" class="scroll-link">About us</a></li>
               <li class="header-item-text">
-                <a href="#our-courses">Our courses</a>
+                <a href="#our-courses" class="scroll-link">Our courses</a>
               </li>
               <li class="header-item-text">
-                <a href="#our-mentors">Our mentors</a>
+                <a href="#our-mentors" class="scroll-link">Our mentors</a>
               </li>
-              <li class="header-item-text"><a href="#reviews">Reviews</a></li>
+              <li class="header-item-text"><a href="#reviews" class="scroll-link">Reviews</a></li>
               <li class="header-item-text">
-                <a href="#footer-contact">contacts</a>
+                <a href="#footer-contact" class="scroll-link">contacts</a>
               </li>
             </ul>
           </nav>
         </div>
-        <a href="#sign-up" class="header-icon-link">
+        <a href="#sign-up" class="header-icon-link scroll-link">
           <svg class="header-icon-link-cmr" width="16" height="16">
             <use href="/project-11/assets/icons-8b6aa2a5.svg#icon-bi-camera"></use>
           </svg>
         </a>
-        <a href="#mobile-menu" class="header-icon-nav">
+        <a href="#mobile-menu" class="header-icon-nav js-open-menu">
           <svg class="header-icon-navigation" width="32" height="22">
             <use href="/project-11/assets/icons-8b6aa2a5.svg#icon-Nav"></use>
           </svg>
         </a>
       </div>
-      <a href="#sign-up"><button type="button" class="header-button">Sign&nbsp;up</button></a>
+      <a href="#sign-up" class="scroll-link"><button type="button" class="header-button">Sign&nbsp;up</button></a>
     </div>
   </div>
 </header>
@@ -105,10 +105,10 @@
             </li>
           </ul>
           <div class="student-box">
-            <a href="#reviews" class="hero-student-text">
+            <a href="#reviews" class="hero-student-text scroll-link">
               Our happy students
             </a>
-            <a href="#reviews" class="hero-arrow-link">
+            <a href="#reviews" class="hero-arrow-link scroll-link">
               <svg class="hero-arrow" width="18" height="9">
                 <use href="/project-11/assets/icons-8b6aa2a5.svg#icon-Arrow-2"></use>
               </svg>
@@ -241,7 +241,7 @@
         <li class="course-card">
           <div class="card-header">
             <span class="card-number">01</span>
-            <a href="#sign-up" class="card-link">
+            <a href="#sign-up" class="card-link scroll-link">
               <svg class="icon-arrow" width="20" height="20">
                 <use href="/project-11/assets/icons-8b6aa2a5.svg#icon-arrow-narrow-up-right" />
               </svg>
@@ -256,7 +256,7 @@
         <li class="course-card">
           <div class="card-header">
             <span class="card-number">02</span>
-            <a href="#sign-up" class="card-link">
+            <a href="#sign-up" class="card-link scroll-link">
               <svg class="icon-arrow" width="20" height="20">
                 <use href="/project-11/assets/icons-8b6aa2a5.svg#icon-arrow-narrow-up-right" />
               </svg>
@@ -271,7 +271,7 @@
         <li class="course-card">
           <div class="card-header">
             <span class="card-number">03</span>
-            <a href="#sign-up" class="card-link">
+            <a href="#sign-up" class="card-link scroll-link">
               <svg class="icon-arrow" width="20" height="20">
                 <use href="/project-11/assets/icons-8b6aa2a5.svg#icon-arrow-narrow-up-right" />
               </svg>
@@ -582,9 +582,11 @@
     
             <div class="footer-first">
     
-                <svg class="footer-logo" width="127" height="20">
-                    <use href="/project-11/assets/icons-8b6aa2a5.svg#icon-logo"></use>
-                </svg>
+                <a href="#header" class="scroll-link">
+                    <svg class="footer-logo" width="127" height="20">
+                        <use href="/project-11/assets/icons-8b6aa2a5.svg#icon-logo"></use>
+                    </svg>
+                </a>
     
     <!-- <img src="./images/logo.png" alt="logo" class="footer-logo"> -->
     
@@ -612,19 +614,19 @@
     
     <ul class="footer-menu footer-soc">
         <li class="">
-            <a href="#about" class="footer-soc-list">About us</a>
+            <a href="#about" class="footer-soc-list scroll-link">About us</a>
         </li>
         <li class="">
-            <a href="#our-courses" class="footer-soc-list">Our courses</a>
+            <a href="#our-courses" class="footer-soc-list scroll-link">Our courses</a>
         </li>
         <li class="">
-            <a href="#our-mentors" class="footer-soc-list">Our mentors</a>
+            <a href="#our-mentors" class="footer-soc-list scroll-link">Our mentors</a>
         </li>
         <li class="">
-            <a href="#reviews" class="footer-soc-list">Reviews</a>
+            <a href="#reviews" class="footer-soc-list scroll-link">Reviews</a>
         </li>
         <li class="">
-            <a href="#footer-contact" class="footer-soc-list">Contacts</a>
+            <a href="#footer-contact" class="footer-soc-list scroll-link">Contacts</a>
         </li>
     
     </ul>
@@ -659,14 +661,14 @@
 
 </footer>
     <!-- Mobile menu -->
-<div class="backdrop">
+<div class="backdrop js-menu-container">
   <div class="mobile-menu">
     <button
       type="button"
-      class="mobile-btn mobile"
+      class="mobile-btn mobile js-close-menu"
       aria-label="Mobile menu close button"
     >
-      <svg class="mobile-icon-close" width="32" height="32">
+      <svg class="mobile-icon-close scroll-link" width="32" height="32">
         <use href="../images/icons.svg#icon-close"></use>
       </svg>
     </button>
@@ -711,13 +713,26 @@
   </div>
 </div>
 
-   
-    <!-- <script
+
+    <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
-    ></script> -->
+    ></script>
+
+    <!-- scrool -->
+    <script>
+      document.querySelectorAll('.scroll-link').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+          });
+        });
+      });
+    </script>
 
     
   </body>
