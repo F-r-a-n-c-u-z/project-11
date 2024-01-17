@@ -4,23 +4,23 @@
 
 .hero {
   background-image: url(/images/header/graphic-mob@1x_result.webp);
-  /* background-image: url(/images/header/Graphic-mob@1x.png); */
+  background-image: url(/images/header/Graphic-mob@1x.png);
 
   padding-top: 90px;
-  padding-bottom:80px;
+  padding-bottom: 80px;
 }
 
 @media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .hero {
     background-image: url(/images/header/graphic-mob@2x_result.webp);
-    /* background-image: url(/images/header/Graphic-mob@2x.png); */
+    background-image: url(/images/header/Graphic-mob@2x.png);
   }
 }
 
 @media only screen and (min-width: 768px) {
   .hero {
     background-image: url(/images/header/graphic-tab@1x_result.webp);
-    /* background-image: url(/images/header/Graphic-tab@1x.png); */
+    background-image: url(/images/header/Graphic-tab@1x.png);
     padding-top: 120px;
     padding-bottom: 100px;
   }
@@ -29,14 +29,14 @@
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero {
     background-image: url(/images/header/graphic-tab@2x_result.webp);
-    /* background-image: url(/images/header/Graphic-tab@2x.png); */
+    background-image: url(/images/header/Graphic-tab@2x.png);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .hero {
     background-image: url(/images/header/graphic-des1280@1x_result.webp);
-    /* background-image: url(/images/header/Graphic-des1280@1x.png); */
+    background-image: url(/images/header/Graphic-des1280@1x.png);
     padding-top: 160px;
     padding-bottom: 150px;
   }
@@ -45,20 +45,20 @@
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .hero {
     background-image: url(/images/header/graphic-des1280@2x_result.webp);
-    /* background-image: url(/images/header/Graphic-des@2x.png); */
+    background-image: url(/images/header/Graphic-des@2x.png);
   }
 }
 @media only screen and (min-width: 1440px) {
   .hero {
     background-image: url(/images/header/graphic-des1440@1x_result.webp);
-    /* background-image: url(/images/header/Graphic-des1440@1x.png); */
+    background-image: url(/images/header/Graphic-des1440@1x.png);
   }
 }
 
 @media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .hero {
     background-image: url(/images/header/graphic-des1440@2x_result.webp);
-    /* background-image: url(/images/header/Graphic-des1440@1x.png); */
+    background-image: url(/images/header/Graphic-des1440@1x.png);
   }
 }
 
@@ -66,10 +66,8 @@
 .hero-container {
   display: flex;
   flex-direction: column;
-
   border-radius: 30px;
   background: #1d1d1d;
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -87,10 +85,10 @@
 }
 
 @media only screen and (min-width: 1440px) {
-.hero-container {
-    max-width: 1440px; 
+  .hero-container {
+    max-width: 1440px;
     gap: 130px;
-}
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -105,7 +103,6 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.04em;
-
   padding: 20px;
   padding-top: 40px;
 }
@@ -114,7 +111,6 @@
     padding-top: 64px;
     padding-left: 32px;
     max-width: 581px;
-
     font-size: 60px;
     line-height: 1.07;
     letter-spacing: -0.04em;
@@ -126,9 +122,7 @@
     padding-top: 80px;
     padding-left: 50px;
     max-width: 647px;
-
     font-size: 64px;
-
     line-height: 1.06;
   }
 }
@@ -161,7 +155,6 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-
   margin-bottom: 40px;
   padding: 0 20px;
 }
@@ -188,7 +181,6 @@
   .hero-student {
     display: flex;
     gap: 12px;
-
     width: 231px;
   }
 }
@@ -202,9 +194,7 @@
 
 .hero-student-list {
   display: flex;
-
   margin-bottom: 4px;
-
   position: relative;
 }
 
@@ -233,7 +223,6 @@
   .hero-student-b {
     width: 54px;
     height: 54px;
-
     left: 43px;
   }
 }
@@ -246,7 +235,6 @@
   .hero-student-g2 {
     width: 54px;
     height: 54px;
-
     transform: translateX(86px);
   }
 }
@@ -255,7 +243,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 89px;
   gap: 4px;
 }
@@ -279,8 +266,8 @@
 @media only screen and (min-width: 768px) {
   .hero-student-text {
     font-size: 16px;
-      line-height: 1.25;
-      letter-spacing: -0.04em;
+    line-height: 1.25;
+    letter-spacing: -0.04em;
   }
 }
 
@@ -290,11 +277,10 @@
 .hero-student-review-box {
   display: flex;
   align-items: flex-start;
-
   gap: 40px;
   margin-bottom: 31px;
   padding-left: 20px;
-  max-width: 253px
+  max-width: 253px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -309,7 +295,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 104px;
   gap: 12px;
 }
@@ -331,8 +316,8 @@
 
 @media only screen and (min-width: 768px) {
   .rev-text {
-  font-size: 16px;
-  line-height: 1.25;
+    font-size: 16px;
+    line-height: 1.25;
   }
 }
 
@@ -353,11 +338,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 44px;
   height: 44px;
   flex-shrink: 0;
-
   border-radius: 100px;
   background: #bea69e;
 }
@@ -401,7 +384,6 @@
 @media only screen and (min-width: 1280px) {
   .hero-image-card {
     width: 397px;
-    
   }
 }
 

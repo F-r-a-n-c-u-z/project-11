@@ -1,25 +1,21 @@
 .footer {
-  /* padding-left: 20px;
-    padding-right: 20px;*/
-  /* padding-top: 40px; 
-            padding-bottom: 20px; */
   margin-top: 40px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   background-image: url(/images/footer/graphic-mob@1x_result.webp);
-  /* background-image: url(/images/footer/Graphic-mob@1x.png); */
+  background-image: url(/images/footer/Graphic-mob@1x.png);
 }
 
 @media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(/images/footer/graphic-mob@2x_result.webp);
-    /* background-image: url(/images/footer/Graphic-mob@2x.png); */
+    background-image: url(/images/footer/Graphic-mob@2x.png);
   }
 }
 
 @media only screen and (min-width: 768px) {
   .footer {
     background-image: url(/images/footer/graphic-tab@1x_result.webp);
-    /* background-image: url(/images/footer/Graphic-tab@1x.png); */
+    background-image: url(/images/footer/Graphic-tab@1x.png);
     margin-top: 50px;
   }
 }
@@ -27,14 +23,14 @@
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(../images/footer/graphic-tab@2x_result.webp);
-    /* background-image: url(/images/footer/Graphic-tab@2x.png); */
+    background-image: url(/images/footer/Graphic-tab@2x.png);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .footer {
     background-image: url(/images/footer/graphic-des1280@1x_result.webp);
-    /* background-image: url(/images/footer/Graphic-des1280@1x.png); */
+    background-image: url(/images/footer/Graphic-des1280@1x.png);
     margin-top: 75px;
   }
 }
@@ -42,21 +38,21 @@
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(/images/footer/graphic-des1280@2x_result.webp);
-    /* background-image: url(/images/footer/Graphic-des1280@2x.png); */
+    background-image: url(/images/footer/Graphic-des1280@2x.png);
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .footer {
     background-image: url(/images/footer/graphic-des1440@1x_result.webp);
-    /* background-image: url(/images/footer/Graphic-des1440@1x.png); */
+    background-image: url(/images/footer/Graphic-des1440@1x.png);
   }
 }
 
 @media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(/images/footer/graphic-des1440@2x_result.webp);
-    /* background-image: url(/images/footer/Graphic-des1440@2x.png); */
+    background-image: url(/images/footer/Graphic-des1440@2x.png);
   }
 }
 
@@ -68,7 +64,6 @@
   .footer-container {
     height: 331px;
     padding-top: 50px;
-    /* padding-bottom: 25px; */
   }
 }
 
@@ -80,7 +75,6 @@
   .footer-cont {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     align-items: start;
   }
 }
@@ -125,30 +119,25 @@
   font-size: 14px;
   line-height: 1.28;
   text-transform: uppercase;
-  /* 
-    font-style: normal;
-    font-weight: 400; */
   margin-bottom: 10px;
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-tel:hover,
-.footer-tel:focus{
-    color: #BEA69E;
+.footer-tel:focus {
+  color: #bea69e;
 }
 
 .footer-ukr {
-  /* color: #FFF; */
   font-size: 14px;
   line-height: 1.28;
-  /* background-color: transparent; */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-ukr:hover,
-.footer-ukr:focus{
-    color: #BEA69E;
+.footer-ukr:focus {
+  color: #bea69e;
 }
 
 .footer-list {
@@ -187,21 +176,18 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
-  /* align-items: flex-start; */
 }
 
 .footer-soc-list {
-  /* color: #FFF; */
   font-size: 14px;
   line-height: normal;
   text-transform: uppercase;
-  /* background-color: transparent; */
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-list:hover,
-.footer-soc-list:focus{
-    color: #BEA69E;
+.footer-soc-list:focus {
+  color: #bea69e;
 }
 /* footer-form */
 .footer-wrapper {
@@ -222,7 +208,6 @@
   }
 }
 
-
 .footer-form {
   display: flex;
   align-items: center;
@@ -237,16 +222,6 @@
   }
 }
 
-/* .footer-email {
-    max-width: 267px;
-} */
-
-/* @media screen and (min-width: 768px) {
-    .subs-email {
-        max-width: 264px;
-    }
-} */
-
 .footer-email-inp {
   max-width: 267px;
   height: 60px;
@@ -254,18 +229,11 @@
   background-color: #fff;
   padding: 20px 18px;
   color: #121212;
-  /* font-size: 16px; */
+
   line-height: 1.25;
   border: none;
   outline: transparent;
 }
-
-/* .footer-email-inp:hover, 
-.footer-email-inp:focus,
-.footer-email-inp:activ {
-   
-} */
-
 
 @media screen and (min-width: 768px) {
   .footer-email-inp {
@@ -289,59 +257,48 @@
   border-radius: 12px;
   background-color: #1d1d1d;
   color: #fff;
-
-  /* text-align: center; */
   font-size: 20px;
   line-height: 1.2;
   flex-shrink: 0;
-
   cursor: pointer;
   border: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* padding-bottom: 20px; */
 }
 
-
-
 .footer-bottom-pp {
-        font-size: 12px;
-        line-height: 1.33;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  line-height: 1.33;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) {
-    .footer-bottom-pp {
-        /* color: #FFF; */
-        font-size: 14px;
-        line-height: 1.28;
-       
-    }
+  .footer-bottom-pp {
+    font-size: 14px;
+    line-height: 1.28;
+  }
 }
 
 .footer-bottom-text {
-  /* color: #FFF; */
   font-size: 12px;
   line-height: 1.33;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-bottom-text {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+}
 
- @media screen and (min-width: 768px){
-    .footer-bottom-text {
-            /* color: #FFF; */
-            font-size: 14px;
-            line-height: 1.28;
-    }
- }
-
- .footer-btn-go:hover,
- .footer-bottom-pp:hover,
- .footer-btn-go:focus,
- .footer-bottom-pp:focus {
-     color: #BEA69E;
- }
+.footer-btn-go:hover,
+.footer-bottom-pp:hover,
+.footer-btn-go:focus,
+.footer-bottom-pp:focus {
+  color: #bea69e;
+}

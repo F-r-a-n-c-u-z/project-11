@@ -71,7 +71,6 @@
 .sign-up-form {
   display: flex;
   max-width: 335px;
-
   flex-shrink: 0;
   flex-direction: column;
   align-items: flex-start;
@@ -84,10 +83,12 @@
   }
 }
 
-.sign-up-form .form-input {
+.sign-up-form,
+.form-input {
   color: white;
 }
-x .sign-up-form .form-text-area {
+.sign-up-form,
+.form-text-area {
   color: white;
 }
 .label-input_icons-div {
@@ -96,16 +97,11 @@ x .sign-up-form .form-text-area {
   padding-right: 150px;
   width: 100%;
   height: 46px;
-
   flex-shrink: 0;
-
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
-
   background-color: transparent;
-
   padding-left: 18px;
-
   outline: transparent;
 }
 
@@ -127,21 +123,14 @@ x .sign-up-form .form-text-area {
   width: 100%;
   padding-right: 150px;
   height: 112px;
-
   flex-shrink: 0;
-
   padding-top: 14px;
   padding-left: 18px;
-
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-
   background-color: transparent;
-
   outline: transparent;
-
   resize: none;
-
   margin-bottom: 28px;
 }
 
@@ -188,24 +177,17 @@ x .sign-up-form .form-text-area {
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 14px 127px;
-
   width: 100%;
   height: auto;
-
   background-color: white;
-
   color: #121212;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.25em;
-
   text-transform: uppercase;
-
   border: none;
   border-radius: 12px;
-
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -213,11 +195,9 @@ x .sign-up-form .form-text-area {
   .btn-send {
     width: 479px;
     height: 60px;
-
     display: inline-flex;
     justify-content: center;
     align-items: center;
-
     padding: 16px 216px;
   }
 }
@@ -233,7 +213,6 @@ x .sign-up-form .form-text-area {
 .privacy-div {
   max-width: 335px;
   height: 48px;
-
   margin-top: 20px;
 }
 
@@ -241,7 +220,6 @@ x .sign-up-form .form-text-area {
   .privacy-div {
     max-width: 479px;
     height: 60px;
-
     margin-top: 20.71px;
   }
 }
@@ -281,7 +259,6 @@ x .sign-up-form .form-text-area {
     position: relative;
     display: flex;
     align-items: flex-end;
-
     gap: 20px;
   }
 

@@ -2,8 +2,6 @@
   top: 20px; /* Отступ вверху 20px */
   left: 50%;
   transform: translateX(-50%);
-  /* top: 20px;
-  left: 100px; */
   display: flex;
   position: absolute;
 }
@@ -116,16 +114,14 @@
     border-radius: 12px;
     border: none;
     max-width: 186px;
-    
     cursor: pointer;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.56;  
+    line-height: 1.56;
     text-transform: uppercase;
     color: #121212;
     background-color: #fff;
   }
-  
 }
 @media screen and (min-width: 1280px) {
   .sign-up-link {

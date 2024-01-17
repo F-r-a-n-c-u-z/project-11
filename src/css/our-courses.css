@@ -34,11 +34,6 @@
     letter-spacing: -1.92px;
   }
 }
-@media only screen and (min-width: 1280px) {
-  .our-courses-title {
-    /* margin-left: 80px; */
-  }
-}
 
 .courses {
   color: #bea69e;
@@ -99,7 +94,6 @@
   border-radius: 12px;
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
   padding: 20px;
-  /* margin-bottom: 20px; */
   box-sizing: border-box;
   max-width: 335px;
   height: 398px;
